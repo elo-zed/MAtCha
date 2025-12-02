@@ -146,8 +146,8 @@ if __name__ == '__main__':
         and (not args.refinement_only) 
         and (not args.mesh_only)
     )    
-    if args.sfm_only or run_all:
-        os.system(sfm_command)
+    # if args.sfm_only or run_all:
+    #     os.system(sfm_command)
     if args.alignment_only or run_all:
         os.system(align_charts_command)
     if args.refinement_only or run_all:
